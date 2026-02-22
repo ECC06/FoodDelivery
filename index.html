@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <header class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="img-bg">🍔</span>
+                    <p>Quick<span>Bite</span></p>
+                </div>
+
+                <button id="hamburger-icon" class="menu-toggle" aria-label="Open menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <nav class="nav-menu">
+                    <div class="nav-links">
+                        <a class="nav-link" href="#">Restaurants</a>
+                        <a class="nav-link" href="#">How It Works</a>
+                        <a class="nav-link" href="#">Download</a>
+                        <a class="nav-link" href="#">Sign In</a>
+                    </div>
+
+                    <div class="hero-ctas">
+                        <a href="#" class="btn-primary sign-in">Sign In</a>
+                        <a href="#" class="btn-primary order-now">Order Now</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hero-content">
+            <h1>
+                Delicious Food,<br>
+                <span>Delivered Fast</span>
+            </h1>
+
+            <p class="hero-text">
+                Order from 500+ restaurants and get your favorite meals
+                delivered to your doorstep in 30 minutes or less.
+            </p>
+
+            <div class="hero-actions">
+                <div class="hero-search-bar">
+                    <div class="hero-delivery-input">
+                        <svg class="location-pin" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve"
+                            fill="#EF6939" stroke="#EF6939">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill: none;
+                                        stroke: #EF6939;
+                                        stroke-width: 2;
+                                        stroke-linecap: round;
+                                        stroke-linejoin: round;
+                                        stroke-miterlimit: 10;
+                                    }
+                                </style>
+                                <path class="st0" d="M25,13c0,8-9,15-9,15s-9-7-9-15c0-5,4-9,9-9S25,8,25,13z"></path>
+                                <circle class="st0" cx="16" cy="13" r="3"></circle>
+                            </g>
+                        </svg>
+                        <input type="text" placeholder="Enter your delivery address">
+                    </div>
+                    <button class="find-food-btn">Find Food</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="main-section">
+            <div class="wrapper">
+                <div class="heading-and-text">
+                    <h2>Food Delivery Made <span>Simple</span></h2>
+                    <p>We've thought of everything so you can just focus on enjoying your meal.</p>
+                </div>
+
+                <article class="benefits">
+                    <div class="benefit">
+                        <div class="icon-bg orange">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path>
+                                <path d="M15 18H9"></path>
+                                <path
+                                    d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+                                </path>
+                                <circle cx="17" cy="18" r="2"></circle>
+                                <circle cx="7" cy="18" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h3>Fast Delivery</h3>
+                        <p>30-minute delivery guarantee or your next order is on us!</p>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="icon-bg teal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+                                <path d="M7 2v20"></path>
+                                <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path>
+                            </svg>
+                        </div>
+                        <h3>Wide Selection</h3>
+                        <p>Choose from 500+ restaurants across all cuisines.</p>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="icon-bg yellow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                </path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <h3>Live Tracking</h3>
+                        <p>Track your order in real-time from kitchen to doorstep.</p>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="icon-bg teal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Safe &amp; Contactless</h3>
+                        <p>Contactless delivery with highest safety standards.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="main-section restaurants-section">
+            <div class="wrapper">
+                <div class="heading-and-btn">
+                    <div class="heading-and-text left-aligned">
+                        <h2>Popular <span>Restaurants</span></h2>
+                        <p>Discover the most loved restaurants in your area.</p>
+                    </div>
+                    <button class="see-more-btn">See More
+                        <svg width="16" height="12" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.22 0.21934C10.3606 0.0788894 10.5512 0 10.75 0C10.9488 0 11.1394 0.0788894 11.28 0.21934L17.28 6.21934C17.4205 6.35997 17.4993 6.55059 17.4993 6.74934C17.4993 6.94809 17.4205 7.13871 17.28 7.27934L11.28 13.2793C11.2113 13.353 11.1285 13.4121 11.0365 13.4531C10.9445 13.4941 10.8452 13.5162 10.7445 13.5179C10.6438 13.5197 10.5438 13.5012 10.4504 13.4635C10.357 13.4257 10.2722 13.3696 10.201 13.2984C10.1297 13.2272 10.0736 13.1423 10.0359 13.0489C9.99816 12.9555 9.97963 12.8555 9.98141 12.7548C9.98318 12.6541 10.0052 12.5548 10.0462 12.4628C10.0872 12.3708 10.1463 12.288 10.22 12.2193L14.94 7.49934H0.75C0.551088 7.49934 0.360322 7.42032 0.21967 7.27967C0.0790175 7.13902 0 6.94825 0 6.74934C0 6.55043 0.0790175 6.35966 0.21967 6.21901C0.360322 6.07836 0.551088 5.99934 0.75 5.99934H14.94L10.22 1.27934C10.0795 1.13871 10.0007 0.948091 10.0007 0.74934C10.0007 0.550589 10.0795 0.359965 10.22 0.21934Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+                </div>
+
+                <article class="restaurants">
+
+                    <div class="restaurant-card">
+                        <div class="restaurant-img-wrap">
+                            <span class="restaurant-badge">20% OFF</span>
+                            <div class="restaurant-img italian-restaurant">
+                                <img src="./images/italian-restaurant.avif" alt="Bella Italia">
+                            </div>
+                        </div>
+                        <div class="restaurant-info">
+                            <div class="restaurant-title-row">
+                                <h3>Bella Italia</h3>
+                                <span class="restaurant-rating">⭐ 4.8</span>
+                            </div>
+                            <p class="restaurant-cuisine">Italian</p>
+                            <p class="restaurant-featured">Featured: <strong>Wood-fired Pizza</strong></p>
+                            <div class="restaurant-footer">
+                                <span class="restaurant-time">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                    25-35 min
+                                </span>
+                                <a href="#" class="order-now-link">Order Now
+                                    <svg width="14" height="11" viewBox="0 0 18 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.22 0.21934C10.3606 0.0788894 10.5512 0 10.75 0C10.9488 0 11.1394 0.0788894 11.28 0.21934L17.28 6.21934C17.4205 6.35997 17.4993 6.55059 17.4993 6.74934C17.4993 6.94809 17.4205 7.13871 17.28 7.27934L11.28 13.2793C11.2113 13.353 11.1285 13.4121 11.0365 13.4531C10.9445 13.4941 10.8452 13.5162 10.7445 13.5179C10.6438 13.5197 10.5438 13.5012 10.4504 13.4635C10.357 13.4257 10.2722 13.3696 10.201 13.2984C10.1297 13.2272 10.0736 13.1423 10.0359 13.0489C9.99816 12.9555 9.97963 12.8555 9.98141 12.7548C9.98318 12.6541 10.0052 12.5548 10.0462 12.4628C10.0872 12.3708 10.1463 12.288 10.22 12.2193L14.94 7.49934H0.75C0.551088 7.49934 0.360322 7.42032 0.21967 7.27967C0.0790175 7.13902 0 6.94825 0 6.74934C0 6.55043 0.0790175 6.35966 0.21967 6.21901C0.360322 6.07836 0.551088 5.99934 0.75 5.99934H14.94L10.22 1.27934C10.0795 1.13871 10.0007 0.948091 10.0007 0.74934C10.0007 0.550589 10.0795 0.359965 10.22 0.21934Z"
+                                            fill="#EF6939" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <div class="restaurant-img-wrap">
+                            <span class="restaurant-badge">Free Fries</span>
+                            <div class="restaurant-img">
+                                <img src="./images/burger-restaurant.webp" alt="Bella Italia">
+
+                            </div>
+                        </div>
+                        <div class="restaurant-info">
+                            <div class="restaurant-title-row">
+                                <h3>Burger Barn</h3>
+                                <span class="restaurant-rating">⭐ 4.7</span>
+                            </div>
+                            <p class="restaurant-cuisine">American</p>
+                            <p class="restaurant-featured">Featured: <strong>Signature Smash</strong></p>
+                            <div class="restaurant-footer">
+                                <span class="restaurant-time">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                    15-25 min
+                                </span>
+                                <a href="#" class="order-now-link">Order Now
+                                    <svg width="14" height="11" viewBox="0 0 18 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.22 0.21934C10.3606 0.0788894 10.5512 0 10.75 0C10.9488 0 11.1394 0.0788894 11.28 0.21934L17.28 6.21934C17.4205 6.35997 17.4993 6.55059 17.4993 6.74934C17.4993 6.94809 17.4205 7.13871 17.28 7.27934L11.28 13.2793C11.2113 13.353 11.1285 13.4121 11.0365 13.4531C10.9445 13.4941 10.8452 13.5162 10.7445 13.5179C10.6438 13.5197 10.5438 13.5012 10.4504 13.4635C10.357 13.4257 10.2722 13.3696 10.201 13.2984C10.1297 13.2272 10.0736 13.1423 10.0359 13.0489C9.99816 12.9555 9.97963 12.8555 9.98141 12.7548C9.98318 12.6541 10.0052 12.5548 10.0462 12.4628C10.0872 12.3708 10.1463 12.288 10.22 12.2193L14.94 7.49934H0.75C0.551088 7.49934 0.360322 7.42032 0.21967 7.27967C0.0790175 7.13902 0 6.94825 0 6.74934C0 6.55043 0.0790175 6.35966 0.21967 6.21901C0.360322 6.07836 0.551088 5.99934 0.75 5.99934H14.94L10.22 1.27934C10.0795 1.13871 10.0007 0.948091 10.0007 0.74934C10.0007 0.550589 10.0795 0.359965 10.22 0.21934Z"
+                                            fill="#EF6939" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <div class="restaurant-img-wrap">
+                            <div class="restaurant-img mexican-restaurant">
+                                <img src="./images/mexican-restaurant.avif" alt="Bella Italia">
+                            </div>
+                        </div>
+                        <div class="restaurant-info">
+                            <div class="restaurant-title-row">
+                                <h3>Taco Fiesta</h3>
+                                <span class="restaurant-rating">⭐ 4.6</span>
+                            </div>
+                            <p class="restaurant-cuisine">Mexican</p>
+                            <p class="restaurant-featured">Featured: <strong>Street Tacos</strong></p>
+                            <div class="restaurant-footer">
+                                <span class="restaurant-time">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                    20-30 min
+                                </span>
+                                <a href="#" class="order-now-link">Order Now
+                                    <svg width="14" height="11" viewBox="0 0 18 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.22 0.21934C10.3606 0.0788894 10.5512 0 10.75 0C10.9488 0 11.1394 0.0788894 11.28 0.21934L17.28 6.21934C17.4205 6.35997 17.4993 6.55059 17.4993 6.74934C17.4993 6.94809 17.4205 7.13871 17.28 7.27934L11.28 13.2793C11.2113 13.353 11.1285 13.4121 11.0365 13.4531C10.9445 13.4941 10.8452 13.5162 10.7445 13.5179C10.6438 13.5197 10.5438 13.5012 10.4504 13.4635C10.357 13.4257 10.2722 13.3696 10.201 13.2984C10.1297 13.2272 10.0736 13.1423 10.0359 13.0489C9.99816 12.9555 9.97963 12.8555 9.98141 12.7548C9.98318 12.6541 10.0052 12.5548 10.0462 12.4628C10.0872 12.3708 10.1463 12.288 10.22 12.2193L14.94 7.49934H0.75C0.551088 7.49934 0.360322 7.42032 0.21967 7.27967C0.0790175 7.13902 0 6.94825 0 6.74934C0 6.55043 0.0790175 6.35966 0.21967 6.21901C0.360322 6.07836 0.551088 5.99934 0.75 5.99934H14.94L10.22 1.27934C10.0795 1.13871 10.0007 0.948091 10.0007 0.74934C10.0007 0.550589 10.0795 0.359965 10.22 0.21934Z"
+                                            fill="#EF6939" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+
+        <section class="main-section testimonials-section">
+            <div class="wrapper">
+                <div class="heading-and-text">
+                    <h2>What People <span>Say</span></h2>
+                    <p>Join thousands of happy customers enjoying delicious food delivered fast.</p>
+                </div>
+
+                <article class="testimonials">
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-top">
+                            <div class="testimonial-stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <svg class="quote-icon" width="40" height="38" viewBox="0 0 16 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 7C16 10.866 12.418 14 8 14C7.20761 14.0018 6.41845 13.8989 5.653 13.694C5.069 13.99 3.728 14.558 1.472 14.928C1.272 14.96 1.12 14.752 1.199 14.566C1.553 13.73 1.873 12.616 1.969 11.6C0.744 10.37 0 8.76 0 7C0 3.134 3.582 0 8 0C12.418 0 16 3.134 16 7ZM7.194 5.766C7.12801 5.66767 7.05193 5.57651 6.967 5.494C6.83281 5.35701 6.67361 5.24703 6.498 5.17L6.49 5.166C6.25302 5.0565 5.99506 4.99986 5.734 5C4.776 5 4 5.746 4 6.667C4 7.587 4.776 8.333 5.734 8.333C6.077 8.333 6.396 8.238 6.665 8.073C6.528 8.462 6.275 8.877 5.855 9.293C5.81544 9.33161 5.7842 9.37792 5.76321 9.42906C5.74222 9.48021 5.73193 9.5351 5.73296 9.59038C5.73399 9.64565 5.74632 9.70013 5.7692 9.75045C5.79208 9.80078 5.82503 9.84589 5.866 9.883C6.039 10.043 6.313 10.038 6.48 9.873C7.814 8.544 7.85 7.115 7.421 6.167C7.35778 6.02697 7.2818 5.89308 7.194 5.767V5.766ZM11 8.073C10.864 8.462 10.61 8.877 10.19 9.293C10.1505 9.33168 10.1193 9.37804 10.0984 9.42922C10.0775 9.4804 10.0673 9.53532 10.0684 9.59059C10.0696 9.64587 10.082 9.70033 10.105 9.75062C10.1279 9.8009 10.161 9.84596 10.202 9.883C10.374 10.043 10.648 10.038 10.815 9.873C12.149 8.544 12.185 7.115 11.757 6.167C11.6935 6.02694 11.6171 5.89304 11.529 5.767C11.4631 5.66833 11.387 5.57683 11.302 5.494C11.1678 5.35701 11.0086 5.24703 10.833 5.17L10.825 5.166C10.5883 5.05664 10.3307 5 10.07 5C9.113 5 8.336 5.746 8.336 6.667C8.336 7.587 9.113 8.333 10.07 8.333C10.413 8.333 10.732 8.238 11.001 8.073H11Z" />
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">"QuickBite has completely changed how I order food. The delivery is
+                            always
+                            super fast, and the app is so easy to use!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1541647249291-71c1d98ce84f?q=80&w=1588&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Sarah Mitchell">
+                            </div>
+                            <div>
+                                <p class="author-name">Sarah Mitchell</p>
+                                <p class="author-label">Food Lover</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-top">
+                            <div class="testimonial-stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <svg class="quote-icon" width="40" height="38" viewBox="0 0 16 15"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 7C16 10.866 12.418 14 8 14C7.20761 14.0018 6.41845 13.8989 5.653 13.694C5.069 13.99 3.728 14.558 1.472 14.928C1.272 14.96 1.12 14.752 1.199 14.566C1.553 13.73 1.873 12.616 1.969 11.6C0.744 10.37 0 8.76 0 7C0 3.134 3.582 0 8 0C12.418 0 16 3.134 16 7ZM7.194 5.766C7.12801 5.66767 7.05193 5.57651 6.967 5.494C6.83281 5.35701 6.67361 5.24703 6.498 5.17L6.49 5.166C6.25302 5.0565 5.99506 4.99986 5.734 5C4.776 5 4 5.746 4 6.667C4 7.587 4.776 8.333 5.734 8.333C6.077 8.333 6.396 8.238 6.665 8.073C6.528 8.462 6.275 8.877 5.855 9.293C5.81544 9.33161 5.7842 9.37792 5.76321 9.42906C5.74222 9.48021 5.73193 9.5351 5.73296 9.59038C5.73399 9.64565 5.74632 9.70013 5.7692 9.75045C5.79208 9.80078 5.82503 9.84589 5.866 9.883C6.039 10.043 6.313 10.038 6.48 9.873C7.814 8.544 7.85 7.115 7.421 6.167C7.35778 6.02697 7.2818 5.89308 7.194 5.767V5.766ZM11 8.073C10.864 8.462 10.61 8.877 10.19 9.293C10.1505 9.33168 10.1193 9.37804 10.0984 9.42922C10.0775 9.4804 10.0673 9.53532 10.0684 9.59059C10.0696 9.64587 10.082 9.70033 10.105 9.75062C10.1279 9.8009 10.161 9.84596 10.202 9.883C10.374 10.043 10.648 10.038 10.815 9.873C12.149 8.544 12.185 7.115 11.757 6.167C11.6935 6.02694 11.6171 5.89304 11.529 5.767C11.4631 5.66833 11.387 5.57683 11.302 5.494C11.1678 5.35701 11.0086 5.24703 10.833 5.17L10.825 5.166C10.5883 5.05664 10.3307 5 10.07 5C9.113 5 8.336 5.746 8.336 6.667C8.336 7.587 9.113 8.333 10.07 8.333C10.413 8.333 10.732 8.238 11.001 8.073H11Z" />
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">"As someone who works late, QuickBite is a lifesaver. Wide selection
+                            of
+                            restaurants and always on time."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1540569014015-19a7be504e3a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="James Chen">
+                            </div>
+                            <div>
+                                <p class="author-name">James Chen</p>
+                                <p class="author-label">Busy Professional</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-top">
+                            <div class="testimonial-stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="#f9c31f" stroke="#f9c31f" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <svg class="quote-icon" width="40" height="38" viewBox="0 0 16 15"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 7C16 10.866 12.418 14 8 14C7.20761 14.0018 6.41845 13.8989 5.653 13.694C5.069 13.99 3.728 14.558 1.472 14.928C1.272 14.96 1.12 14.752 1.199 14.566C1.553 13.73 1.873 12.616 1.969 11.6C0.744 10.37 0 8.76 0 7C0 3.134 3.582 0 8 0C12.418 0 16 3.134 16 7ZM7.194 5.766C7.12801 5.66767 7.05193 5.57651 6.967 5.494C6.83281 5.35701 6.67361 5.24703 6.498 5.17L6.49 5.166C6.25302 5.0565 5.99506 4.99986 5.734 5C4.776 5 4 5.746 4 6.667C4 7.587 4.776 8.333 5.734 8.333C6.077 8.333 6.396 8.238 6.665 8.073C6.528 8.462 6.275 8.877 5.855 9.293C5.81544 9.33161 5.7842 9.37792 5.76321 9.42906C5.74222 9.48021 5.73193 9.5351 5.73296 9.59038C5.73399 9.64565 5.74632 9.70013 5.7692 9.75045C5.79208 9.80078 5.82503 9.84589 5.866 9.883C6.039 10.043 6.313 10.038 6.48 9.873C7.814 8.544 7.85 7.115 7.421 6.167C7.35778 6.02697 7.2818 5.89308 7.194 5.767V5.766ZM11 8.073C10.864 8.462 10.61 8.877 10.19 9.293C10.1505 9.33168 10.1193 9.37804 10.0984 9.42922C10.0775 9.4804 10.0673 9.53532 10.0684 9.59059C10.0696 9.64587 10.082 9.70033 10.105 9.75062C10.1279 9.8009 10.161 9.84596 10.202 9.883C10.374 10.043 10.648 10.038 10.815 9.873C12.149 8.544 12.185 7.115 11.757 6.167C11.6935 6.02694 11.6171 5.89304 11.529 5.767C11.4631 5.66833 11.387 5.57683 11.302 5.494C11.1678 5.35701 11.0086 5.24703 10.833 5.17L10.825 5.166C10.5883 5.05664 10.3307 5 10.07 5C9.113 5 8.336 5.746 8.336 6.667C8.336 7.587 9.113 8.333 10.07 8.333C10.413 8.333 10.732 8.238 11.001 8.073H11Z" />
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">"The contactless delivery gives me peace of mind, and my kids love
+                            tracking
+                            the delivery on the map!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1541657333963-d31b55f58de1?q=80&w=1588&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Emily Rodriguez">
+                            </div>
+                            <div>
+                                <p class="author-name">Emily Rodriguez</p>
+                                <p class="author-label">Mom of Two</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="img-bg">🍔</span>
+                        <p>Quick<span>Bite</span></p>
+                    </div>
+                    <p class="footer-tagline">Bringing delicious food from your favorite restaurants straight to your
+                        door.
+                        Fast, fresh, and always satisfying.</p>
+                    <div class="footer-subscribe">
+                        <div class="subscribe-input-wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                            </svg>
+                            <input type="email" placeholder="Enter your email">
+                        </div>
+                        <button class="subscribe-btn">Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Press</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Support</h4>
+                        <a href="#">Help Center</a>
+                        <a href="#">Safety</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Partners</h4>
+                        <a href="#">Become a Partner</a>
+                        <a href="#">Become a Driver</a>
+                        <a href="#">Restaurant Dashboard</a>
+                        <a href="#">Affiliate Program</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 QuickBite. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Youtube" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17">
+                            </path>
+                            <path d="m10 15 5-3-5-3z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
